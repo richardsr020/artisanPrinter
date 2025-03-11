@@ -4,7 +4,7 @@ import win32print
 import win32api
 import subprocess
 import tkinter as tk
-from tkinter import filedialog, ttk, messagebox
+from tkinter import PhotoImage, filedialog, ttk, messagebox
 from datetime import datetime
 from io import BytesIO  # Importation manquante pour BytesIO
 
@@ -85,8 +85,6 @@ class Printer:
             finally:
                 win32print.ClosePrinter(hprinter)
 
-            print("PDF printed successfully")
-
         except Exception as e:
             raise RuntimeError(f"Print Error: {str(e)}")
 
@@ -94,6 +92,8 @@ class Printer:
 class PrinterApp:
     def __init__(self, root):
         self.root = root
+        self.icon = PhotoImage(file="icons/icon0.png")  # Chargement de l'icône
+        self.root.iconphoto(False, self.icon)  # Définir l'icône
         self.root.title("artisanPrint")
         self.root.resizable(False, False)
 
