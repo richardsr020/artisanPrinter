@@ -1,6 +1,4 @@
-D'accord ! Voici un fichier `README.md` adapté à ton projet **artisanWindowsPrinter**, qui est un logiciel permettant d'imprimer des fichiers PDF en masse sans les ouvrir.  
-
----
+makettes/pr hme_043909.JPG
 
 # 🖨️ Artisan Windows Printer
 
