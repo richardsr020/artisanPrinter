@@ -29,8 +29,8 @@ D'accord ! Voici un fichier `README.md` adapté à ton projet **artisanWindowsPr
    - Exécute le logiciel directement via son fichier exécutable dans output/artisanWindowsPrinter  
    - Ou lance-le via une ligne de commande si applicable
      ```cmd
-   cd artisanWindowsPrinter
-   python artisanPrinter.py 
+      cd artisanWindowsPrinter
+      python artisanPrinter.py 
    ```
 
 ## 🛠️ Utilisation
